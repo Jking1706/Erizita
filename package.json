@@ -1,0 +1,40 @@
+{
+  "name": "caro-browser-adventure",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "gltfjsx": "gltfjsx",
+    "preview": "vite preview",
+    "visual:check": "node scripts/visual-check.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "latest",
+    "@react-three/fiber": "latest",
+    "@react-three/postprocessing": "^3.1.2",
+    "@react-three/rapier": "latest",
+    "@theatre/core": "^0.7.2",
+    "@theatre/studio": "^0.7.2",
+    "gsap": "^3.15.0",
+    "postprocessing": "^6.39.5",
+    "r3f-perf": "^7.2.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "three": "latest",
+    "viber3d": "^0.0.6",
+    "wawa-vfx": "^1.2.10",
+    "zustand": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/three": "latest",
+    "@vitejs/plugin-react": "latest",
+    "gltfjsx": "^6.5.3",
+    "playwright": "^1.63.0",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
